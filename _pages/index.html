@@ -6,91 +6,82 @@ layout: page
 permalink: /
 
 header:
-    overlay_image: /assets/images/header.webp
+    overlay_image: /assets/images/skidsteer-header.jpg
     overlay_filter: rgba(0, 0, 0, 0.6)
 
     actions:
         - label: "Get Started"
-          url: #contact
+          url: /#contact
+          blank: false
+        - label: "Rental Equipment"
+          url: /#equipment
           blank: false
         - label: "Project Assistance"
-          url: https://github.com/mmistakes/minimal-mistakes
-          blank: false
-        - label: "Equipment Controls"
-          url: https://github.com/mmistakes/minimal-mistakes
+          url: /#assistance
           blank: false
 
-excerpt: "**Offering the tools and the assistance to get your project off the ground**"
+excerpt: "**Offering the equipment and assistance you need to get your yard project off the ground**"
 
 
 
 
 image-text-row:
-    - header: "Image-Text-Row"
-      excerpt: "This is an image-text-row"
-      image-url: "/assets/images/header.webp"
-      alt-text: "Alternative text for the image"
+    - header: "Mini Excavator Rental"
+      excerpt: "Available for your landscaping, trenching or clean up projects."
+      image-url: "/assets/images/mini-ex.png"
+      alt-text: "Mini Excavator Rental"
       image-width: "400px"
       image-right: false
 
-image-text-row-two:
-    - header: "Image-Text-Row"
-      excerpt: "This is an image-text-row with the image on the right (on large enough screens) and a little bit longer text plus a button"
-      btn-url: "#"
-      btn-class: "info"
-      btn-label: "A button"
-      blank: false
-      image-url: "/assets/images/sydney-2.webp"
+image-flattrailer:
+      - header: "Flatbed Trailer Rental"
+        excerpt: "Mainly used to transport your rental equpment to your project site. Free to rent standalone for your other transport needs."
+        image-url: "/assets/images/Flatbed-Utility-Trailer.webp"
+        image-width: "400px"
+        image-right: true
+
+image-dumptrailer:
+    - header: "Hydraulic Dump Trailer Rental"
+      excerpt: "Not only transport your excavator rental to your project site, but this trailer can be used to bring material to your site or remove material from your location."
+      image-url: "/assets/images/dump-trailer.webp"
       alt-text: "Alternative text for the image"
       image-width: "400px"
-      image-right: true
+      image-right: false
 ---
 
-<section class="site-section first-section" id="assistance">
+<section class="site-section first-section" id="equipment">
 
-    <h1>Project Assistance</h1>
+    <h1>Equpment Rentals Available</h1>
 
-    <p>TimpWorks not only provides excavation and trailer rental services, but we include operator assistance as well. We can drop off and pick up the equipment and even stay onsite to operate the equipment if you need more assistance.</p>
+    <p>Rent our equipment for your yard projects. Landscaping, junk removal, excavation? We got you. TimpWorks not only provides excavation and trailer rental services, but we include operator assistance as well. We can drop off and pick up the equipment and even stay onsite to operate the equipment if you need more assistance.</p>
 
-   
-    <h3> Image-Text-Rows</h3>
+    <hr>
 
     {% include image-text-row %}
 
     <hr>
 
-    {% include image-text-row id="image-text-row-two" %}
-
-
-</section>
-
-
-
-
-<hr class="section-sep">
-
-
-
-
-<section class="site-section alternative-color" id="controls">
-
-    <h1>Equipment Controls</h1>
-
-    <div class="notice">
-        <h4>Controls</h4>
-        <p>Embedded videos about the equipment will be here</p>
-    </div>
+    {% include image-text-row id="image-flattrailer" %}
 
     <hr>
 
-    <div class="box-container">
+    {% include image-text-row id="image-dumptrailer" %}
 
-        <div class="box">
-            <h4>video</h4>
-            <p>video will be here</p>
-        </div>
+</section>
 
-    </div>
+
+
+
+<hr class="section-sep">
+
+
+
+
+<section class="site-section alternative-color" id="assistance">
+
+    <h1>Project Assistance</h1>
+
+    <p>TimpWorks not only provides excavation and trailer rental services, but we include operator assistance as well. We can drop off and pick up the equipment and even stay onsite to operate the equipment if you need more assistance.</p>
 
 
 </section>
@@ -103,10 +94,13 @@ image-text-row-two:
 
 
 
-<section class="site-section" id="contact">
 
-    <h1>Get started on your project!</h1>
 
-    <script type="text/javascript" src="/assets/js/form_v1.js"></script>
+
+
+
+<section class="site-section white" id="contact">
+
+    <script src="https://www.cognitoforms.com/f/seamless.js" data-key="qBHgsLqPHEieCfyF6POO1w" data-form="1"></script>
 
 </section>

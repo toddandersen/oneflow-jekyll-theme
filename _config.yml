@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 
-oneflow-skin    : "aqua" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+oneflow-skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -17,7 +17,7 @@ url                      : "https://www.timpworks.com" # the base hostname & pro
 baseurl                  : # the subpath of your site, e.g. "/blog"
 #repository               : "perstarke-webdev/oneflow-jekyll-theme" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # "/assets/images/logo.webp" # Site logo displayed in the masthead
+logo                     : "/assets/images/tw-logo.png" # Site logo displayed in the masthead
 show-popup               : false # set to false if you don't need / want to show a cookie-banner / cdn-usage popup.
                                 # Edit the popup itself in the respective /includes file
 masthead_title           : " "  # Overrides the website title displayed in the masthead, use " " for no title
@@ -39,14 +39,11 @@ footer:
       url: "https://www.timpworks.com"
     - label: "Facebook"
       icon: "fab fa-facebook"
-      # url:
+      url: "https://www.facebook.com"
     - label: "Instagram"
       icon: "fab fa-instagram"
-      url: "https://www.instagram.com/per.starke/"
-    - label: "TikTok"
-      icon: "fab fa-tiktock"
-      #url: "https://www.youtube.com/channel/UCG2Ndo4IEH8Fa0oIv2FBRMA"
-  copyright: "Per Timpworks"
+      url: "https://www.instagram.com/"
+  copyright: "TimpWorks LLC"
 
 
 
@@ -62,9 +59,6 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
   - Capfile
   - CHANGELOG
   - config

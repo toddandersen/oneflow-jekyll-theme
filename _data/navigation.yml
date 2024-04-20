@@ -3,9 +3,9 @@ main:
   - title: "Contact Us"
     url: /#contact
     blank: false
+  - title: "Equipment Rentals"
+    url: /#equipment
+    blank: false  
   - title: "Project Assistance"
     url: /#assistance
-    blank: false
-  - title: "Equipment Controls"
-    url: /#controls
     blank: false
