@@ -7,6 +7,7 @@
 
 
 oneflow-skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: perstarke-webdev/oneflow-jekyll-theme
 
 # Site Settings
 locale                   : "en-US"
